@@ -1,7 +1,12 @@
+import AdminNavber from "../../../Components/Admin/AdminNavber/AdminNavber";
+
 const Dashboard = () => {
   return (
-    <div>
-      <h2>Admin Dashboard</h2>
+    <div className=" md:w-[90%] lg:w-[80%] mx-auto">
+      <div>
+        <AdminNavber></AdminNavber>
+        <hr className="my-3" />
+      </div>
     </div>
   );
 };
